@@ -1,4 +1,4 @@
-readlineSync = require("readline-sync");
+ readlineSync = require("readline-sync");
 var playername = readlineSync.question("whats your name? ");
 console.log("--------")
 console.log(playername + " lets play a quiz");
@@ -16,13 +16,11 @@ index = readlineSync.keyInSelect(option, "ans")
 
 if (option[index] == option[0]) {
   score++
-  console.log("you are right")
-  console.log("keep going you score is - " + score);
-  ;
+  console.log("Right");
 }
 else {
   
-  console.log("you are wrong");
+  console.log("Wrong");
  
 }
 console.log("------")
@@ -32,12 +30,12 @@ index1 = readlineSync.keyInSelect(option1, "ans")
 
 if (option1[index1] == option1[2]) {
   score++;
-  console.log("you are right");
+  console.log("Right");
   console.log("")
 }
 else {
   
-  console.log("you are wrong");
+  console.log("Wrong");
   
 }
 console.log("-------")
@@ -47,12 +45,12 @@ index2 = readlineSync.keyInSelect(option2, "ans")
 
 if (option2[index2] == option2[2]) {
   score++;
-  console.log("you are right");
+  console.log("Right");
   console.log("")
 }
 else {
   
-  console.log("you are wrong");
+  console.log("Wrong");
   
 }
 console.log("-------")
@@ -62,12 +60,12 @@ index3 = readlineSync.keyInSelect(option3, "ans")
 
 if (option3[index3] == option3[2]) {
   score++;
-  console.log("good job");
+  console.log("Right");
   console.log("")
 }
 else {
   
-  console.log(" wrong");
+  console.log(" Wrong");
   
 }
 console.log("-------")
@@ -77,20 +75,18 @@ index4 = readlineSync.keyInSelect(option4, "ans")
 
 if (option4[index4] == option4[0]) {
   score++;
-  console.log("bdiya bhai");
+  console.log("Right");
 
 }
 else {
   
-  console.log(" you are wrong!");
+  console.log("Wrong");
 
 }
 console.log("-------");
 console.log("-------")
 console.log("your score = " + score + "/5")
-console.log("-------");
-console.log("------");
-console.log("Thank You!");
+
 
 
 
